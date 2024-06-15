@@ -1,8 +1,11 @@
 # Expense-Manager
 Fullstack web application Mern Stack Based.
 # demo 
-(Incomplete Demo - will integrate completeted soon)
-![Screenshot 2024-03-28 132918](https://github.com/shaileshthakur1/Expense-Manager/assets/110343920/da4f7b14-5346-477c-9d7f-c3380e41c95c)
+(UI)
+<img width="851" alt="image" src="https://github.com/shaileshthakur1/Expense-Manager/assets/110343920/2871fb36-1014-45e4-a96c-41c4b349366a">
+
+
+
 # Tech Stack used:
 - MongoDB , ExpressJs , React , Node
 - Redux Toolkit
