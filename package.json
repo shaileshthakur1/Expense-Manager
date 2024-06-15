@@ -4,6 +4,7 @@
   "description": "Fullstack Expense Manager Application",
   "main": "index.js",
   "scripts": {
+    "start": "your-start-command-here",
     "test": "npm start"
   },
   "author": "",
