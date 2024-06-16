@@ -1,0 +1,38 @@
+{
+    "version": 2,
+    "name": "expense-manager",
+    "builds": [
+      {
+        "src": "server/server.js",
+        "use": "@vercel/node"
+      },
+      {
+        "src": "client/package.json",
+        "use": "@vercel/static-build",
+        "config": {
+          "distDir": "client/build"
+        }
+      }
+    ],
+    "routes": [
+      {
+        "src": "/api/(.*)",
+        "dest": "/server.js"
+      },
+      {
+        "src": "/(.*)",
+        "dest": "/client/$1"
+      }
+    ],
+    "env": {
+      "NODE_ENV": "production",
+      "MONGO_URI": "mongodb+srv://admin:admin12345@cluster0.woy6rpg.mongodb.net/expenseDatabase?retryWrites=true&w=majority&appName=Cluster0"
+    },
+    "build": {
+      "env": {
+        "NODE_ENV": "production",
+        "MONGO_URI": "mongodb+srv://admin:admin12345@cluster0.woy6rpg.mongodb.net/expenseDatabase?retryWrites=true&w=majority&appName=Cluster0"
+      }
+    }
+  }
+  
