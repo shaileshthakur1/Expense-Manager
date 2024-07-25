@@ -1,4 +1,3 @@
-```markdown
 # Expense Manager Application
 
 This is a full-stack expense management application built with the MERN stack (MongoDB, Express, React, Node.js). It utilizes Redux Toolkit for state management, RTK Query for data fetching, and Tailwind CSS for styling. The application is designed to provide a robust and efficient user experience.
@@ -162,11 +161,3 @@ Contributions are welcome! Please follow these steps to contribute:
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ---
-
-Thank you for using this application! If you have any questions or feedback, feel free to contact me at thakurshaileshkuamr507@gmail.com.
-```
-
-Feel free to customize the content and paths according to your specific project details and requirements.
-4. **Start the backend server:**
-```sh
-npm run dev
