@@ -23,10 +23,7 @@ This is a full-stack expense management application built with the MERN stack (M
 - **Redux Toolkit**: State management for the application.
 - **RTK Query**: Data fetching and caching tool.
 - **Tailwind CSS**: Utility-first CSS framework for styling.
-- **React Components**: Reusable UI components.
-- **MongoDB Atlas**: Cloud database service for MongoDB.
 - **Lodash**: Utility library for JavaScript.
-- **Express Framework**: Web application framework for Node.js.
 
 ## Features
 
